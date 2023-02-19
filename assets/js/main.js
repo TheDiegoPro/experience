@@ -210,9 +210,9 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   new Swiper('.slides-3', {
     speed: 600,
-    loop: true,
+    loop: false,
     autoplay: {
-      delay: 5000,
+      delay: 99999999,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
